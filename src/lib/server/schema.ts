@@ -11,7 +11,7 @@ export const suburbs = sqliteTable(
 	{
 		id: integer('id').primaryKey(),
 		suburb: text('suburb'),
-		priceDecile: integer('price_decile'),
+		priceMedian: integer('price_median'),
 		bathroomsMedian: integer('bathrooms_median'),
 		bedroomsMedian: integer('bedrooms_median'),
 		garageMedian: integer('garage_median'),

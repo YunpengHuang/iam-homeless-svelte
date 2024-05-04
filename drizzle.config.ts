@@ -1,6 +1,7 @@
 import type { Config } from 'drizzle-kit';
-import 'dotenv/config';
+import * as dotenv from 'dotenv';
 
+dotenv.config();
 // TODO: change to turso for development use
 export default {
 	schema: './src/lib/server/schema.ts',
