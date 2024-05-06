@@ -2,7 +2,7 @@
 
 ## Preview
 
-![site](docs/sites.gif)
+![site](docs/site.gif)
 
 ## Developing
 
