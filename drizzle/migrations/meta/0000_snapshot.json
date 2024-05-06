@@ -1,7 +1,7 @@
 {
   "version": "5",
   "dialect": "sqlite",
-  "id": "d44e6967-1c3d-4fe4-be29-7eb89be5da54",
+  "id": "e6858721-c5de-4cdf-b40e-ee3071b1473c",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "tables": {
     "suburbs": {
@@ -21,8 +21,8 @@
           "notNull": false,
           "autoincrement": false
         },
-        "price_decile": {
-          "name": "price_decile",
+        "price_median": {
+          "name": "price_median",
           "type": "integer",
           "primaryKey": false,
           "notNull": false,

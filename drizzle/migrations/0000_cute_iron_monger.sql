@@ -1,7 +1,7 @@
 CREATE TABLE `suburbs` (
 	`id` integer PRIMARY KEY NOT NULL,
 	`suburb` text,
-	`price_decile` integer,
+	`price_median` integer,
 	`bathrooms_median` integer,
 	`bedrooms_median` integer,
 	`garage_median` integer,

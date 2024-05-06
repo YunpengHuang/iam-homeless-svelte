@@ -22,3 +22,6 @@ export const suburbs = sqliteTable(
 		suburbIndex: index('suburb_idx').on(suburbs.suburb)
 	})
 );
+
+export type InsertSuburb = typeof suburbs.$inferInsert;
+export type SelectSuburb = typeof suburbs.$inferSelect;
