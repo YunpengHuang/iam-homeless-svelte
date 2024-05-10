@@ -1,5 +1,7 @@
 # A simple website that select suburbs based on the given options.
 
+[(note: Perth housing data only)]
+
 ## Preview
 
 ![site](docs/site.gif)
@@ -14,3 +16,9 @@ npm run dev -- --open
 ```
 
 # iam-homeless-svelte
+
+### Dataset
+
+```
+https://www.kaggle.com/datasets/syuzai/perth-house-prices
+```
